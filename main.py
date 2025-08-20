@@ -60,6 +60,7 @@ client = OpenAI()
 
 # Create the main window
 root = tk.Tk(screenName="Chatbot")
+root.iconbitmap('img/hwdchiva.ico')
 root.title("Chatbot")
 
 # Create a ScrolledText widget
